@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  font-family: 'Cinzel', serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.main {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('https://cdn.wallpapersafari.com/29/9/vEOwmp.jpg');
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+.gallery {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cartas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  height: 60vw;
+  max-width: 10rem;
+  max-height: 16rem;
+  padding: 1%;
+  margin: 1% 1%;
+  min-width: 160px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cartas:hover{
+    transition: 0.2s;
+    transform: scale(1.2);
+   }
+
+   header{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .top{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .controller{
+       width: 10%;
+       margin: -4% 0 0 2%;
+   }
+
+   .controller:hover {
+       transition: 1s;
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+
+
+   .note{
+       width: 12%;
+       margin: -2% 0% 4% 0;
+   }
+
+   .note:hover {
+    transition: 1s;
+ transform: rotate(360deg);
+ cursor: pointer;
+}
+
+  .pokecitos {
+    width: 100%;
+    max-width: 8rem;
+    -webkit-filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+  
+  }
+  
+  .logo {
+    width: 90%;
+    max-width: 37rem;
+    margin-bottom: 0%;
+  }
+
+  .miInput{
+      width: 37%;
+      background: rgb(255,221,0);
+      background: linear-gradient(90deg, rgba(255,221,0,0.444437149859944) 0%, rgba(255,221,0,0.48365283613445376) 100%);
+      border: #2870b8 solid 3px;
+      border-radius: 10px;
+  }
+
+  .botones{
+      margin: 2.5% 0 1.5% 0;
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+img:hover{
+    cursor: pointer;
+}
+
+  button{
+      width: 5.5%;
+      height: 3rem;
+      border: transparent;
+      background-color: transparent;
+      margin-bottom: 2%;
+      min-width: 4rem;
+  }
+
+  .texto{
+    text-shadow: 0 0 8px #ffffff;
+  }
+
+  .toDo{
+      width: 6em;
+  }
+
+.grasa{
+    background-image:URL('https://64.media.tumblr.com/59a37379d87b55fa60914349e2d9a44a/tumblr_mukur6odaJ1sicqz2o1_400.gifv');
+    background-size:cover;
+    
+}
+.fuegote{
+    background-image:URL('https://acegif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-23.gif');
+    background-size:cover;
+}
+.awita{
+    background-image:URL('https://cdna.artstation.com/p/assets/images/images/016/476/952/original/csilla-rodonyi-underwater-019.gif?1552322340');
+    background-size:cover;
+}
+.bixo{
+    background-image:URL('https://i.pinimg.com/originals/e0/57/7d/e0577d3e97c8115965b090c16f5534d2.gif');
+    background-size:cover;
+}
+.normal{
+    background-image:URL('https://i.gifer.com/5J46.gif');
+    background-size:cover;
+}
+.veneno{
+    background-image:URL('https://64.media.tumblr.com/d1ee3ea07ad8d3c463a3233dc6b18972/9bbb517ecc15cdd6-29/s540x810/49e7c8cea35d9b378d88e0a126a557e7b8afe8be.gifv');
+    background-size:cover;
+}
+.hada{
+    background-image:URL('https://i.pinimg.com/originals/33/84/f0/3384f0e90d77d69e4957d8d5158877fc.gif');
+    background-size:cover;
+}
+.tierra{
+    background-image:URL('https://thumbs.gfycat.com/TinyCharmingDungbeetle-max-1mb.gif');
+    background-size:cover;
+}
+.luxa{
+    background-image:URL('http://untiedgames.com/img/tilesets/gif/desert.gif');
+    background-size:cover;
+}
+.acido{
+    background-image:URL('https://i.pinimg.com/originals/81/0d/7f/810d7f716a950a63a9c0dba6aacb1a73.gif');
+    background-size:cover;
+}
+.electrico{
+    background-image:URL('https://i.pinimg.com/originals/4a/44/cc/4a44cccd576fec851302e249b0984028.gif');
+    background-size:contain;
+}
+.helado{
+    background-image:URL('https://i.gifer.com/yNs.gif');
+    background-size:cover;
+}
+.pedrolo{
+    background-image:URL('http://img2.reactor.cc/pics/post/AnasAbdin-artist-Pixel-Gif-Pixel-Art-5745967.gif');
+    background-size:cover;
+}
+.dragon{
+    background-image:URL('https://c.tenor.com/Zupcd-jWrf4AAAAC/sky-purple.gif');
+    background-size:cover;
+}
+
+.casper{
+    background-image:URL('https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif');
+    background-size:cover;
+}
+
+ 
+
+

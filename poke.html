@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./poke.js" defer></script>
+    <link rel="stylesheet" href="./poke.css" />
+    <title>Document</title>
+  </head>
+  <body class="main">
+    <main>
+      <header>
+        <div class="top">
+            <div class="controller"><a href="./minigame.html" ><img alt="" /><img style="width: 100%"
+              src="https://www.seekpng.com/png/full/120-1202151_snes-controller-snes-controller-pixel-art.png"
+          /></a></div> 
+          <div><img
+            class="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png" 
+          /></div>
+          <div class="note"><a href="./objetivos.html"><img style="width: 100%"
+              class="toDo"
+              src="http://store-images.s-microsoft.com/image/apps.19885.14497029770176244.c183dc2f-ba0e-4541-a6b1-5029f4f9f1bb.fa959fbc-2cbb-456b-89b2-4210b6fa75c3"
+          /></a></div>
+        </div>
+        <input type="search" class="miInput" placeholder="busca tu pokemon" />
+      </header>
+      <div class="botones">
+        <button onclick="botonTipo('grass')" class="grass">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg/2048px-Pok%C3%A9mon_Grass_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('fire')" class="fire">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pok%C3%A9mon_Fire_Type_Icon.svg/2048px-Pok%C3%A9mon_Fire_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('water')" class="water">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg/1024px-Pok%C3%A9mon_Water_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('bug')" class="bug">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg/2048px-Pok%C3%A9mon_Bug_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('normal')" class="normalB">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg/1024px-Pok%C3%A9mon_Normal_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('poison')" class="poison">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg/1200px-Pok%C3%A9mon_Poison_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('electric')" class="electric">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg/1024px-Pok%C3%A9mon_Electric_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('ground')" class="ground">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg/2048px-Pok%C3%A9mon_Ground_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('fairy')" class="fairy">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg/1024px-Pok%C3%A9mon_Fairy_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('fighting')" class="fighting">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg/2048px-Pok%C3%A9mon_Fighting_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('psychic')" class="psychic">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg/2048px-Pok%C3%A9mon_Psychic_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('rock')" class="rock">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg/1200px-Pok%C3%A9mon_Rock_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('ghost')" class="ghost">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg/1024px-Pok%C3%A9mon_Ghost_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('ice')" class="ice">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg/1200px-Pok%C3%A9mon_Ice_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onclick="botonTipo('dragon')" class="dragonB">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pok%C3%A9mon_Dragon_Type_Icon.svg/1200px-Pok%C3%A9mon_Dragon_Type_Icon.svg.png"
+            style="width: 80%"
+          />
+        </button>
+        <button onClick="refreshPage()">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266__480.png"
+            style="width: 80%"
+          />
+        </button>
+      </div>
+      <section class="gallery"></section>
+    </main>
+  </body>
+</html>
